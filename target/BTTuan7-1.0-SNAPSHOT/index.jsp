@@ -11,7 +11,7 @@
 </head>
 <body>
 <c:if test="${sqlStatement==null}">
-    <c:set var="sqlStatement" value="select * from DocGia"/>
+    <c:set var="sqlStatement" value="select * from docgia"/>
 </c:if>
 <h1> The SQL Gateway</h1>
 <p> Enter an SQL statement and click the Excute button</p>
